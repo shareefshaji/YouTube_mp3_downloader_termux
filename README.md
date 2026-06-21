@@ -40,7 +40,7 @@ pip install yt-dlp rich requests
 git clone https://github.com/shareefshaji/YouTube_mp3_downloader_termux.git
 cd YouTube_mp3_downloader_termux
 termux-setup-storage
-python3 download_malayalam_en.py
+python3 download_youtube_mp3_en.py
 ```
 
 ### 🐧 Linux / macOS
@@ -52,7 +52,7 @@ pip install yt-dlp rich requests
 
 git clone https://github.com/shareefshaji/YouTube_mp3_downloader_termux.git
 cd YouTube_mp3_downloader_termux
-python3 download_malayalam_en.py
+python3 download_youtube_mp3_en.py
 ```
 
 ### 🪟 Windows
@@ -63,7 +63,7 @@ pip install yt-dlp rich requests
 git clone https://github.com/shareefshaji/YouTube_mp3_downloader_termux.git
 cd YouTube_mp3_downloader_termux
 
-python download_malayalam_en.py
+python download_youtube_mp3_en.py
 ```
 
 ---
@@ -85,7 +85,7 @@ Paste a YouTube video or playlist URL and wait for the download to complete.
 
 ```
 YouTube_mp3_downloader_termux/
-├── download_malayalam_en.py
+├── download_youtube_mp3_en.py
 ├── settings.json        # User configuration (auto-created)
 ├── downloads/            # Downloaded MP3 files (auto-created)
 ├── README.md
